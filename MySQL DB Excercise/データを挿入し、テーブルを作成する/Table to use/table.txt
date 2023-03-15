@@ -1,0 +1,5 @@
+INSERT INTO orders(user_id, payment)
+VALUES 
+(1,'クレジット'),
+(2,'クレジット'), 
+(3,'代金引換');

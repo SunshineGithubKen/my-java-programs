@@ -1,0 +1,5 @@
+SELECT 
+id, name, LENGTH(name) 
+FROM items 
+ORDER BY LENGTH(name) ASC
+LIMIT 3;

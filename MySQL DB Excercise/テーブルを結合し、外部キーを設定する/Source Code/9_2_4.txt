@@ -1,0 +1,10 @@
+SELECT
+items.name,
+items.price,
+order_details.amount,
+orders.created
+FROM items 
+LEFT JOIN order_details on items.id = order_details.item_id
+LEFT JOIN orders ON orders.id = order_details.order_id
+
+ORDER BY  order_details.amount

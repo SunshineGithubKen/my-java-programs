@@ -1,0 +1,8 @@
+SELECT
+users.name,
+SUM(items.price*order_details.amount) AS 合計金額
+FROM order_details
+JOIN items ON items.id = order_details.item_id
+JOIN orders ON orders.id = order_details.order_id
+JOIN users ON users.id = orders.user_id
+GROUP BY users.name;
