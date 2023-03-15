@@ -1,0 +1,9 @@
+SELECT
+items.name,
+SUM(order_details.amount) AS 売上数量
+FROM items
+JOIN order_details
+ON items.id = order_details.item_id
+WHERE items.price = 100 
+GROUP BY items.name
+ORDER BY items.name DESC;

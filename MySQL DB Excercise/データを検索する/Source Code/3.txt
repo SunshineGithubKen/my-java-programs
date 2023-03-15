@@ -1,0 +1,5 @@
+SELECT id, name, price
+FROM items 
+WHERE 1000 >= price
+ORDER BY price DESC
+LIMIT 3;

@@ -1,0 +1,4 @@
+SELECT name, price
+FROM items
+WHERE name LIKE 'コー%'
+ORDER BY price DESC;

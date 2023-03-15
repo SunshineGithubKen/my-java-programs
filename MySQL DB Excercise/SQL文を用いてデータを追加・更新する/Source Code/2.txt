@@ -1,0 +1,7 @@
+UPDATE items
+SET price = 750
+WHERE id = 10;
+
+UPDATE items 
+SET name = '特製醤油ラーメン' 
+WHERE id = 11;

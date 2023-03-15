@@ -1,0 +1,14 @@
+SELECT
+orders.id,
+orders.created,
+users.name,
+users.address,
+users.phone,
+orders.payment,
+items.name,
+items.price,
+order_details.amount
+FROM orders
+JOIN order_details ON orders.id = order_details.order_id
+JOIN users ON orders.user_id = users.id
+JOIN items ON order_details.item_id = items.id

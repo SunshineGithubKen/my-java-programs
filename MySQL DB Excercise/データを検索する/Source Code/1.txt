@@ -1,0 +1,3 @@
+SELECT id, price
+FROM items
+LIMIT 3;
