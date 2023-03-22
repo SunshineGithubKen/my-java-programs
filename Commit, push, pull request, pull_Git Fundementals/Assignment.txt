@@ -1,0 +1,66 @@
+■課題1: GitLab
+ローカルでのマージとプルリクエストでのマージ演習で利用したローカルとリモートのリポジトリを利用してください。
+マージリクエスト、プルをしてください。
+
+｜Issue の作成
+ローカルでdevelopブランチを作成し、移動する。
+そこで、Issue 番号を作成する。番号は、gとする。
+README.mdファイルに、"Git基礎最終課題で追記。"を一行追記する。
+ステージし、コミットする。
+コミット時に、"README.mdを更新しました。マージ、プルリク、プルの演習"を明示してください。
+developブランチをリモート(origin)にプッシュする。
+
+｜Gitlabでマージリクエストをした上でマージする
+Gitlabを開き、マージリクエストを作成し、(レビュアーとして)追加した内容を確認してください。
+問題がなければ、マージしてレビューを終える。
+
+｜ローカルリポジトリにプルする
+ローカルで、develop ブランチに checkout してから、プルしてリモートリポジトリの変更内容を反映してください。
+
+■課題2: Github
+ローカルでのマージとプルリクエストでのマージで利用したローカルとリモートのリポジトリを利用する。
+プルリクエスト、プルをしてください。
+
+｜ステージからプッシュまで
+ローカルでissue/gブランチを作成し、移動する。
+README.mdファイルに、"Git基礎最終課題で追記。制作日"を一行追記する。
+ステージし、コミットする。
+コミット時に、"README.mdを更新しました。マージ、プルリク、プルの演習"を明示してください。
+issue/gブランチをリモート(eclipse_project)にプッシュしてください。
+
+｜Githubでプルリクエストをした上でマージする
+Githubを開き、プルリクエストを作成し、(レビュアーとして)追加した内容を確認してください。
+問題がなければ、マージしてレビューを終える。
+
+｜ローカルリポジトリにプルする
+ローカルで、issue/gブランチに checkout してから、プルしてリモートリポジトリの変更内容を反映してください。
+
+■Excercise 1: GitLab
+Please use the local and remote repositories used for merging locally and merging with pull requests. Integrate Git and Gitlab and create a merge request and pull.
+
+｜Creating an Issue
+Create and switch to the develop branch locally.
+Create an issue number there. Let the number be "g".
+Add the text "Added in Git Fundamentals Final Assignment" to the README.md file.
+Stage and commit.
+When committing, please indicate "Exercise for merging, pull request, and pull. README.md updated".
+Push the develop branch to the remote (origin).
+
+■Excercise 2:  GitHub
+Please use the local and remote repositories used for merging locally and merging with pull requests. Proceed with a pull request and pull.
+
+｜From Staging to Pushing
+Create and switch to the issue/g branch locally.
+Add the text "Added in Git Fundamentals Final Assignment. Production Date" to the README.md file.
+Stage and commit.
+When committing, please indicate "Exercise for merging, pull request, and pull. README.md updated".
+Push the issue/g branch to the remote (eclipse_project).
+
+｜Creating a Pull Request in Github and Merging it
+Open GitHub, create a pull request, and confirm the added content (as a reviewer).
+If there are no problems, merge and complete the review.
+
+｜Pulling to the Local Repository
+Locally, check out the issue/g branch and pull to reflect the changes made in the remote repository.
+
+
