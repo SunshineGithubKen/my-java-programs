@@ -1,6 +1,6 @@
-#my-java-programs
+# my-java-programs
 
-#What are these projects?
+What are these projects?
 
 This is to showcase Java projects.
 
